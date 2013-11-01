@@ -1,0 +1,28 @@
+\documentclass[a4paper]{article}
+\usepackage[titletoc]{appendix}
+\usepackage[a4paper,includeheadfoot,left=2.5cm,top=1.5cm,right=2.5cm,bottom=1.75cm]{geometry}
+\usepackage{CJKutf8}
+\usepackage{fancyhdr}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{color,graphicx,subfigure,enumerate,epsfig,epstopdf}
+\usepackage{pdfpages}
+\newcommand{\etal}{\emph{et al.} }
+\title{Approximate computation with qualitied probabilistic accuracy}
+\author{Li Wei}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Computer science was founded on exact computations with discrete logical correctness requirements (examples include compilers and traditional relational databases). But over the last decade, approximate computations have come to dominate many fields. In contrast to exact computations, approximate computations aspire only to produce an acceptably accurate approximation to an exact (but in many cases inherently unrealizable) output. Examples include machine learning, unstructured information analysis and retrieval, and lossy video, audio and image processing. There can be a shift from the exact accuracy to acceptably trade off accuracy for benefits such as increased performance and reduced resource consumption with the development of energy-efficient hardware, prominence of the potential applications and the step-by-step mature of the approximate computations. 
+
+\section{Related work}
+There are many works haved been done to achieve the accuracy-resources or performance trade-off, such as task skipping, loop perforation, approximate function memoization and substitution of multiple alternate implementations\etal\cite{zyzhu}. Also there are some work to address the problem in a programming language level\etal\cite{enerj}.
+
+\bibliography{report}
+\end{document}
+
